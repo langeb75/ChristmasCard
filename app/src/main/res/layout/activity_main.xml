@@ -4,8 +4,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<ImageView
+    android:id="@+id/image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/christmasTree"
+    android:scaleType="centerCrop"/>
 
+<TextView
+    android:id="@+id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Merry Christmas"
+    android:textColor="#d4af37 "
+    android:textSize="33dp"
+    android:paddingTop="20dp"
+    android:layout_centerHorizontal="true"
 
-
+    />
 
 </RelativeLayout>
